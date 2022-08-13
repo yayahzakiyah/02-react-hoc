@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 const withSearch = (WrappedComponent, data) => {
-    return class HOC extends Component {
+    class HOC extends Component {
         constructor(props) {
             super(props);
             this.state = {
@@ -10,7 +10,7 @@ const withSearch = (WrappedComponent, data) => {
         }
 
         handleSearch = (event) => {
-            this.MediaStreamAudioDestinationNode({
+            this.setState({
                 searchTerm: event.target.value
             })
         }
@@ -37,6 +37,8 @@ const withSearch = (WrappedComponent, data) => {
             )
         }
     }
+
+    return HOC
 }
 
 export default withSearch;

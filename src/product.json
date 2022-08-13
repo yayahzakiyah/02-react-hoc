@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "productId": "P001",
+            "productName": "Teh Olong"
+        },
+        {
+            "productId": "P002",
+            "productName": "Teh Tubruk"
+        },
+        {
+            "productId": "P003",
+            "productName": "Cola-cola"
+        },
+        {
+            "productId": "P004",
+            "productName": "Fanta"
+        }
+    ]
+}

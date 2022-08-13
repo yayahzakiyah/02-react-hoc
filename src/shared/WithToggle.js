@@ -22,6 +22,8 @@ const withToggle = (WrappedComponent) => {
             )
         }
     }
+
+    return WithToggle
 }
 
 export default withToggle;

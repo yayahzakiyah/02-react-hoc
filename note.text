@@ -1,0 +1,21 @@
+//Simple HOC
+-> component reusable : SimpleHOC (tidak ada tambahan apa2)
+-> digunakan di component HelloComponent, HelloComponent sebagai parameter
+
+//Product
+Part 1:
+-> component reusable : withToggle (menampilkan togle)
+-> digunakan di LabelToggle menampilkan 
+    - title form
+    (jika status togle true menpilkan form input jika 
+    tidak hanya title)
+    - button (edit dan cancel)
+    status toggle   false : cancel
+                    true  : edit
+
+Part 2
+-> features
+    Card : menampilkan ID dan Name, pakai LabelToggle
+    List : menampilkan list data kemudian ditampilkan dengan Card
+-> component reusable : withSearch (menampilkan form search dan logic filterdata)
+-> digunakan di ProductList dengan data dari json
