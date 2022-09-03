@@ -19,3 +19,11 @@ Part 2
     List : menampilkan list data kemudian ditampilkan dengan Card
 -> component reusable : withSearch (menampilkan form search dan logic filterdata)
 -> digunakan di ProductList dengan data dari json
+
+
+//Calculator
+Part 1:
+-> reusable component : withCalc (membuat state result) dan menampung hasil dan semua props)
+-> digunakan di component Addition dan Substraction saat export ditambah props
+-> membuat component : CalcHoc (membuat handle form dan submit serta memsaukan component
+    Add dan Subs)
